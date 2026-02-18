@@ -13,6 +13,8 @@ public class ProductManager {
         return "Sample Product, in starting code.";
     }
     
+    // Feature branch change for network graph evidence
+
     // Calculates the final price after applying a percentage discount.
     public double calculateDiscount(double price, double discountPercent) {
     return price - (price * discountPercent / 100);

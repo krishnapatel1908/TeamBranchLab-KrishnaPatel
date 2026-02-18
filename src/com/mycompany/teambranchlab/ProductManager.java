@@ -12,4 +12,8 @@ public class ProductManager {
     public String getProductName() {
         return "Sample Product, in starting code.";
     }
+    public double calculateDiscount(double price, double discountPercent) {
+    return price - (price * discountPercent / 100);
+}
+
 }
